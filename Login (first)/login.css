@@ -1,0 +1,43 @@
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(97, 97, 86);
+        margin: 0;
+         padding: 0;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .card{
+        background-color: rgb(155, 175, 198);
+        border-radius: 8px;
+        padding: 30px;
+        width: 300px;
+    }
+    h1{
+        color: rgb(0, 106, 255);
+        text-align: center;
+        margin-bottom:15px;
+    }
+    form{
+        display: flex;
+        flex-direction: column; 
+        gap: 13px;
+    }
+    input{
+        margin-bottom: 17 px;
+        padding: 8px;
+        border-radius: 7px;
+        border: 3px solid rgb(32, 23, 23);
+        background-color: rgb(195, 208, 208);
+    }
+    button{
+        background-color: rgb(150, 120, 91);
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        border-radius: 6px;
+    }
+    button:hover{
+        background-color: rgb(77, 77, 100);
+    }
